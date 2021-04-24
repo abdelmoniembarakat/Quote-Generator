@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+	<title>Quote Generator</title>
+	<link rel="stylesheet" type="text/css" href="quote.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+</head>
+
+<body>
+	<div class="quoteContainer" id="quoteContainer">
+		<!-- Quote text -->
+		<div class="quote_text" id="quote_text">
+			<i class="fas fa-quote-left"></i>
+			<span id="quoteText"></span>
+		</div>
+
+		<!-- Author name -->
+		<div class="author_name" id="author_name">
+			<span id="authorName"></span>
+		</div>
+
+		<!-- Buttons -->
+		<div class="buttons_container" id="buttons_container">
+			<button class="tweet" id="twitter" title="Tweet this!"><i class="fab fa-twitter"></i></button>
+			<button class="new_quote" id="new_quote" title="New Quote">New Quote</button>
+		</div>
+	</div>
+
+	<div class="loader" id="loader"></div>
+	<script type="text/javascript" src="script.js"></script>
+</body>
